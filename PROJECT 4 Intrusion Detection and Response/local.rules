@@ -1,0 +1,1 @@
+alert tcp any any -> $EXTERNAL_NET $HTTP_PORTS (msg:"Sample rule description"; flow:to_server,established; content:"POST"; content:"/wOOnl9tnKeyeyjNO"; sid:12000011;)
